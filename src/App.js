@@ -1,9 +1,11 @@
+import React from "react";
+import NewComponent from "./components/NewComponent.js";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="d-flex justify-content-center p-2">Hello World</h1>
-    </div>
+    <React.Fragment>
+      <NewComponent />
+    </React.Fragment>
   );
 }
 
