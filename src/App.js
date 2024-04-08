@@ -1,10 +1,11 @@
 import React from "react";
-import NewComponent from "./components/NewComponent.js";
-
+import MainMenuComponent from "./components/MainMenuComponent";
+import SidebarComponent from "./components/SidebarComponent";
 function App() {
   return (
     <React.Fragment>
-      <NewComponent />
+      <SidebarComponent/>
+      <MainMenuComponent/>
     </React.Fragment>
   );
 }
