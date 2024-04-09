@@ -2,8 +2,17 @@ import React from "react";
 import contacts from "../assets/data/store";
 import App from "../App";
 const SidebarComponent = () => {
+    const sidebar = document.getElementById('sidebar');
+    console.log(App.showChat);
+    console.log(sidebar);
+    // if(App.showChat) {
+    //   sidebar.classList.add('d-none');
+    // } else {
+    //   sidebar.classList.remove('d-none');
+    // }
+    
   return (
-    <div className="col col-md-4 g-0 d-md-block" >
+    <div id="sidebar" className="col col-md-4 g-0 d-md-block">
       <div className="row flex-column h-100 g-0">
         <div className="col-12 bg-my-grey d-flex justify-content-between p-3 align-items-center border-end">
           <div className="d-flex align-items-center">
